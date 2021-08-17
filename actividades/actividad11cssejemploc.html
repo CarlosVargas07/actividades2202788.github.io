@@ -1,0 +1,51 @@
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>
+      Understanding CSS - Thinking Inside the Box
+    </title>
+    <style type="text/css">
+        body {
+            font-family: Tahoma;
+            color: #f82702;
+            padding: 50px;
+        }
+        h1 {text-transform: uppercase;}
+        p { padding: 100px;
+        line-height: 10em;}
+
+        p#body {
+            font-family: Helvetica, Arial, sans-serif;
+            color: #056329;
+            border: 2px solid #be410b;
+            color: #281aa7;
+            padding: 20px;
+        }
+        h1, h2, p {
+            border: 2px solid #3a1383;
+            padding: 10px;
+            line-height: 2em;}
+        i, a, a:hover, a:visited { 
+            color: #665544;
+            border: 2px solid #7fcbae;
+            padding: 5px;}
+
+    </style>
+    </head>
+    <body>
+        <h1>
+            Uso
+        </h1>
+        <p>
+            La clave para entender cómo funciona CSS es imaginar que hay un cuadros
+            invisible alrededor de cada elemento HTML.
+        </p>
+        <p>
+            En la prrimera página, se puede ver una página HTML básica.
+        </p>
+        <p*body>En la segunda página, se puede ver la misma página HTML, pero se ha agregado
+            controno a cada uno de los elementos para que pueda ver cómo los CSS tratará cada elemento 
+            como si estuviera dentro de su propio cuadro.
+        </p>
+    </body>
+</html>
